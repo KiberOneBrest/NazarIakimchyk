@@ -1,0 +1,173 @@
+body {
+    background-color: grey;
+}
+
+.main-menu {
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(17, 160, 113);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.menu-item a{
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-header {
+    text-align: center;
+    color: rgb(17, 160, 113);
+    font-size: 45px;
+}
+
+.main-text {
+    text-align: center;
+    color: cadetblue;
+    font-size: 20px;
+}
+
+.list-title {
+    text-align: center;
+    color: rgb(32, 163, 50);
+    font-size: 30px;
+}
+
+.country-list {
+    text-align: center;
+    list-style: none;
+    color: rgb(32, 163, 50);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.world-map, .country-img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.main-info {
+    color: cadetblue;
+    font-size: 18px;
+}
+
+.video {
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.menu-item a:hover {
+    border-bottom: 1px solid white;
+    opacity: 0.6;
+    transition: 0.6s;
+}
+
+.gallery > figure  {
+    width: 20%;
+    max-width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.iframe-school {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+form textarea {
+    grid-column: 1/-1;
+    resize: none;
+}
+
+form button {
+    grid-column: 1/-1;
+}
+
+.world-map {
+    transition: 0.5s;
+}
+
+.world-map:hover {
+    box-shadow: 10px 10px 5px gray;
+}
+
+.menu-item {
+    transition: 0.5s;
+}
+
+.menu-item:hover {
+    transform: scale(1.5) translateY(5px);
+}
+
+.h1-about {
+    transition: 0.5s;
+    filter: blur(5px);
+}
+
+.h1-about:hover {
+    transform: scale(1.5);
+    filter: none;
+}
+
+.author_img {
+    transition: 0.5s;
+}
+
+.author_img:hover {
+    box-shadow: 0 0 30px green;
+}
+
+.img-figure-about {
+    transition: 0.5s;
+    filter: grayscale(50%);
+}
+
+.img-figure-about:hover {
+    transform: scale(1.6);
+    filter: none;
+}
